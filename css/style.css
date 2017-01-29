@@ -1,0 +1,88 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/background.png");
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: solid;
+	border-color: #cccccc;
+	margin: 0px;
+	height: 76px;
+	width: 100%;
+}
+
+.container {
+	width: 960px;
+}
+
+.site-title {
+	float: left;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	margin: 0px 0px 0px 80px;
+}
+
+#main-bio {
+	width: 650px;
+	float: left;
+	border: solid;
+	border-color: #dddddd;
+	background-color: #ffffff;
+	margin-top: 30px;
+	margin-right: 28px;
+	margin-bottom: 30px;
+}
+
+#bio-image {
+	float: left;
+	padding-top: 0px;
+	width: 200px;
+}
+
+.page-title {
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #cccccc;
+	padding-bottom: 20px;
+}
+
+ul {
+	margin: 0px;
+}
+
+.site-nav {
+	list-style: none;
+	display: inline-block;
+	padding: 30px;
+}
+
+#contact-info {
+	width: 270px;
+	float: left;
+	border: solid;
+	border-color: #dddddd;
+	background-color: #ffffff;
+	margin-top: 30px;
+}
+
+.connect-nav {
+	list-style: none;
+	display: inline-block;
+}
+
+.site-footer {
+	text-align: center;
+  	background-color: #666666;
+  	padding: 10px;
+  	color: #ffffff;
+  	border-top: solid;
+  	border-color: #cccccc;
+  	border-width: 5px;
+  	overflow: auto;
+  	width: 100%;
+}
