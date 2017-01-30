@@ -49,11 +49,12 @@ header {
 }
 
 #add-margin {
-	margin-left: 672px;
+	margin-left: 692px;
 }
 
 #no-border {
 	border-right: none;
+	margin-right: 0px;
 }
 
 /* End Header Formating */
@@ -69,18 +70,19 @@ header {
 
 #main-bio {
 	float: left;
-	width: 500px;
+	width: 600px;
 	border: solid;
 	border-color: #dddddd;
 	background-color: #ffffff;
 	padding: 20px;
 	margin: 30px 30px 30px 0px;
 	color: #777777;
+	line-height: 1.8em;
 }
 
 #bio-image {
 	float: left;
-	padding-top: 0px;
+	padding-top: 20px;
 	padding-right: 10px;
 	width: 200px;
 }
@@ -133,7 +135,7 @@ header {
 	bottom: 0;
 	text-align: center;
   	background-color: #666666;
-  	padding: 10px;
+  	padding: 20px;
   	color: #ffffff;
   	border-top: solid;
   	border-color: #cccccc;
