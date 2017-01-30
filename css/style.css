@@ -1,46 +1,87 @@
 
-html, body {
+* {
 	margin: 0;
 	padding: 0;
+}
+
+body {
 	background-image: url("../images/background.png");
 }
+
+ul {
+	margin: 0px;
+}
+
+/* Begin Header Formating */
 
 header {
 	background-color: #ffffff;
 	border-bottom: solid;
 	border-color: #cccccc;
-	margin: 0px;
 	height: 76px;
 	width: 100%;
 }
 
-.container {
-	width: 960px;
+#nav-container {
+	max-width: 960px;
+	min-width: 300px;
+	margin: 0 auto;
 }
 
-.site-title {
+#site-title {
 	float: left;
 	color: #ffffff;
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 20px;
-	margin: 0px 0px 0px 80px;
+	margin: 0px;
 }
 
-#main-bio {
-	width: 650px;
+.site-nav {
 	float: left;
+	list-style: none;
+	display: inline-block;
+	margin: 25px 20px 20px 0px;
+	padding-right: 20px;
+	color: #777777;
+	border-right: solid 1px #777777;
+	font-size: 18px;
+}
+
+#add-margin {
+	margin-left: 672px;
+}
+
+#no-border {
+	border-right: none;
+}
+
+/* End Header Formating */
+
+/* Begin Main Content Formating */
+
+#container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/* Begin Main Bio Formating */
+
+#main-bio {
+	float: left;
+	width: 500px;
 	border: solid;
 	border-color: #dddddd;
 	background-color: #ffffff;
-	margin-top: 30px;
-	margin-right: 28px;
-	margin-bottom: 30px;
+	padding: 20px;
+	margin: 30px 30px 30px 0px;
+	color: #777777;
 }
 
 #bio-image {
 	float: left;
 	padding-top: 0px;
+	padding-right: 10px;
 	width: 200px;
 }
 
@@ -51,23 +92,27 @@ header {
 	padding-bottom: 20px;
 }
 
-ul {
-	margin: 0px;
-}
+/* End Main Bio Formating */
 
-.site-nav {
-	list-style: none;
-	display: inline-block;
-	padding: 30px;
-}
+/* Begin Contact Info Formating */
 
 #contact-info {
-	width: 270px;
-	float: left;
+	float: right;
 	border: solid;
+	color: #4aaaa5;
 	border-color: #dddddd;
 	background-color: #ffffff;
 	margin-top: 30px;
+}
+
+#contact-title {
+	margin: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #dddddd;
+}
+
+#connect-container {
+	padding: 0px 20px 20px 20px;
 }
 
 .connect-nav {
@@ -75,7 +120,17 @@ ul {
 	display: inline-block;
 }
 
+/* End Contact Info Formating */
+
+/* End Main Content Formating */
+
+/* Begin Footer Formating */
+
 .site-footer {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
 	text-align: center;
   	background-color: #666666;
   	padding: 10px;
@@ -86,3 +141,5 @@ ul {
   	overflow: auto;
   	width: 100%;
 }
+
+/* End Footer Formating */

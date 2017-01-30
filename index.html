@@ -7,17 +7,21 @@
 <body>
 
 <header>
-	<h1 class="site-title">Robert Lester</h1>
+	<div id="nav-container">
+		<h1 id="site-title">Robert Lester</h1>
 
-	<ul>
-		<li class="site-nav">About</li>
-		<li class="site-nav">Portfolio</li>
-		<li class="site-nav">Contact</li>
-	</ul>
+		<ul>
+		<div id="add-margin">
+			<li class="site-nav">About</li>
+			<li class="site-nav">Portfolio</li>
+			<li class="site-nav" id="no-border">Contact</li>
+		</div>
+		</ul>
+	</div>
 </header>
 
-<div class="container page-wrap">
-	
+<div id="container">
+		
 	<section id="main-bio">
 		<h1 class="page-title">About Me</h1>
 
@@ -29,12 +33,12 @@
 	</section>
 
 	<section id="contact-info">
-		<h2>Connect with Me</h2>
+		<h2 id="contact-title">Connect with Me</h2>
 
-		<ul>
-			<li class="connect-nav">Github</li>
-			<li class="connect-nav">LinkedIn</li>
-			<li class="connect-nav">Stack Overflow</li>
+		<ul id="connect-container">
+			<li class="connect-nav"><img src="images/github.png" width="75px"alt="github"></li>
+			<li class="connect-nav"><img src="images/linkedin.png" width="75px" alt="linkedin"></li>
+			<li class="connect-nav"><img src="images/stackoverflow.png" width="75px" alt="stack overflow"></li>
 		</ul>
 	</section>
 
