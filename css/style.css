@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -12,7 +11,7 @@ ul {
 	margin: 0px;
 }
 
-/* Begin Header Formating */
+/* Begin Header Formatting */
 
 header {
 	background-color: #ffffff;
@@ -62,16 +61,16 @@ a {
 	color: #777777;
 }
 
-/* End Header Formating */
+/* End Header Formatting */
 
-/* Begin Main Content Formating */
+/* Begin Main Content Formatting */
 
 #container {
 	max-width: 960px;
 	margin: 0 auto;
 }
 
-/* Begin Main Bio Formating */
+/* Begin Main Bio Formatting */
 
 #main-bio {
 	float: left;
@@ -99,9 +98,95 @@ a {
 	padding-bottom: 20px;
 }
 
-/* End Main Bio Formating */
+/* End Main Bio Formatting */
 
-/* Begin Contact Info Formating */
+/* Begin Main Portfolio Formatting */
+
+.port-container {
+	overflow: auto;
+	clear: both;
+	margin-top: 20px;
+}
+
+.port-images {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+	width: 250px;
+	height: 225px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#project-rpggame {
+	margin-right: 23px;
+}
+
+#project-trivia {
+	margin-left: 23px;
+}
+
+#project-widget {
+	margin-right: 23px;
+}
+
+#project-rps {
+	margin-left: 23px;
+}
+
+#project-hangman {
+	margin-right: 23px;
+}
+
+label {
+	position: absolute;
+	bottom: 20px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px;
+	margin: 0px;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	display: block;
+}
+
+/* End Main Portfolio Formatting */
+
+/* Begin Main Contact Form Formatting*/
+
+#contact-container {
+	margin-top: 20px;
+}
+
+input {
+	width: 100%;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	padding: 5px;
+	border-color: #dddddd;
+	box-sizing: border-box;
+}
+
+#contact-submit {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-top: 5px;
+	border: none;
+	height: 30px;
+	width: 90px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+/* Begin Connect Info Formatting */
 
 #contact-info {
 	float: right;
@@ -127,22 +212,20 @@ a {
 	display: inline-block;
 }
 
-/* End Contact Info Formating */
+/* End Connect Info Formatting */
 
-/* End Main Content Formating */
+/* End Main Content Formatting */
 
-/* Begin Footer Formating */
+/* Begin Footer Formatting */
 
 .site-footer {
-	/*
-	position: absolute;
+	position: fixed;
 	right: 0;
 	left: 0;
 	bottom: 0;
-	*/
-	margin-top: -20px;
 	text-align: center;
   	background-color: #666666;
+	margin-top: 30px;
   	padding: 20px;
   	color: #ffffff;
   	border-top: solid;
@@ -152,4 +235,4 @@ a {
   	width: 100%;
 }
 
-/* End Footer Formating */
+/* End Footer Formatting */
