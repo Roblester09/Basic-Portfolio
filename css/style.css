@@ -4,11 +4,11 @@
 }
 
 body {
-	background-image: url("../images/background.png");
+	background-image: url("../images/use_your_illusion.png");
 }
 
 ul {
-	margin: 0px;
+	margin: 0;
 }
 
 /* Begin Header Formatting */
@@ -33,14 +33,14 @@ header {
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 20px;
-	margin: 0px;
+	margin: 0;
 }
 
 .site-nav {
 	float: left;
 	list-style: none;
 	display: inline-block;
-	margin: 25px 20px 20px 0px;
+	margin: 25px 20px 20px 0;
 	padding-right: 20px;
 	color: #777777;
 	border-right: solid 1px #777777;
@@ -48,12 +48,12 @@ header {
 }
 
 #add-margin {
-	margin-left: 692px;
+	margin-left: 425px;
 }
 
 #no-border {
 	border-right: none;
-	margin-right: 0px;
+	margin-right: 0;
 }
 
 a {
@@ -72,21 +72,29 @@ a {
 
 /* Begin Main Bio Formatting */
 
-#main-bio {
+#content-section {
 	float: left;
-	width: 600px;
-	border: solid;
-	border-color: #dddddd;
+	width: 650px;
+	border: solid #dddddd;
 	background-color: #ffffff;
 	padding: 20px;
-	margin: 30px 30px 30px 0px;
+	margin: 30px 30px 30px 0;
 	color: #777777;
 	line-height: 1.8em;
+	box-sizing: border-box;
+}
+
+#main-bio {
+	margin-top: 20px;
+}
+
+#top-paragraph {
+	line-height: .8;
+	padding-bottom: 5px;
 }
 
 #bio-image {
 	float: left;
-	padding-top: 20px;
 	padding-right: 10px;
 	width: 200px;
 }
@@ -113,7 +121,6 @@ a {
 	display: inline-block;
 	box-sizing: border-box;
 	float: left;
-	width: 250px;
 	height: 225px;
 	margin-bottom: 30px;
 	overflow: hidden;
@@ -137,6 +144,7 @@ a {
 
 #project-hangman {
 	margin-right: 23px;
+	margin-bottom: 0;
 }
 
 label {
@@ -144,8 +152,8 @@ label {
 	bottom: 20px;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	padding: 15px 0px;
-	margin: 0px;
+	padding: 15px 0;
+	margin: 0;
 	width: 100%;
 	text-align: center;
 	font-size: 20px;
@@ -157,13 +165,13 @@ label {
 /* Begin Main Contact Form Formatting*/
 
 #contact-container {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 input {
 	width: 100%;
 	padding: 5px;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 5px;
 	box-sizing: border-box;
 }
@@ -190,9 +198,8 @@ textarea {
 
 #contact-info {
 	float: right;
-	border: solid;
+	border: solid #dddddd;
 	color: #4aaaa5;
-	border-color: #dddddd;
 	background-color: #ffffff;
 	margin-top: 30px;
 }
@@ -204,7 +211,7 @@ textarea {
 }
 
 #connect-container {
-	padding: 0px 20px 20px 20px;
+	padding: 0 20px 20px 20px;
 }
 
 .connect-nav {
@@ -224,13 +231,12 @@ textarea {
 	left: 0;
 	bottom: 0;
 	text-align: center;
+	font-size: 12px;
   	background-color: #666666;
 	margin-top: 30px;
-  	padding: 20px;
+  	padding: 25px;
   	color: #ffffff;
-  	border-top: solid;
-  	border-color: #cccccc;
-  	border-width: 5px;
+  	border-top: solid #cccccc 5px;
   	overflow: auto;
   	width: 100%;
 }
