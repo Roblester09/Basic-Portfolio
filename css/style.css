@@ -70,8 +70,6 @@ a {
 	margin: 0 auto;
 }
 
-/* Begin Main Bio Formatting */
-
 #content-section {
 	float: left;
 	width: 650px;
@@ -83,6 +81,8 @@ a {
 	line-height: 1.8em;
 	box-sizing: border-box;
 }
+
+/* Begin Main Bio Formatting */
 
 #main-bio {
 	margin-top: 20px;
@@ -225,7 +225,7 @@ textarea {
 
 /* Begin Footer Formatting */
 
-.site-footer {
+#site-footer {
 	position: fixed;
 	right: 0;
 	left: 0;
@@ -237,7 +237,6 @@ textarea {
   	padding: 25px;
   	color: #ffffff;
   	border-top: solid #cccccc 5px;
-  	overflow: auto;
   	width: 100%;
 }
 
